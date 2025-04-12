@@ -1,26 +1,26 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "extron-mmx-tcp",
+	"name": "extron-mmx-tcp",
+	"shortname": "extron-mmx",
+	"description": "Extron® MMX AV Switcher",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-extron-mmx-tcp.git",
+	"bugs": "https://github.com/bitfocus/companion-module-extron-mmx-tcp/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Eugen Hottmann",
+			"email": ""
 		}
 	],
+	"legacyIds": [],
 	"runtime": {
 		"type": "node22",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
-		"entrypoint": "../dist/main.js"
+		"entrypoint": "../index.js"
 	},
-	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Extron",
+	"products": ["MMX 42/62 Series"],
+	"keywords": ["Matrix", "Switcher"]
 }
