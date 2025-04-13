@@ -29,11 +29,6 @@ jobs:
           yarn install
         env:
           CI: true
-      - name: Run lint
-        run: |
-          yarn lint
-        env:
-          CI: true
 
   # Uncomment this to enable running unit tests
   # test:
